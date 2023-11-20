@@ -24,7 +24,7 @@ public class Converter {
         float in2 = 200;
         float expected2 = 3.33f;
         float out2 = Converter.rubleToDollar(in2);
-        final float threshold = 0.01f;
+        float threshold = 0.01f;
         boolean passed2 = Math.abs(expected2 - out2) < threshold;
         System.out.println("200 rubles are 3.33. Test result : " + passed2);
     }
